@@ -1,0 +1,367 @@
+[
+    {
+        "product_id": 1,
+        "product": {
+            "name": "PS-Classic",
+            "description": "A plain shirt is a simple and straightforward piece of clothing characterized by its lack of patterns or prints. It typically comes in a single, solid color without any additional decorative elements. Plain shirts are known for their versatility and ability to effortlessly complement various outfits and styles. They serve as a staple in most wardrobes, making them suitable for both casual and formal occasions. Plain shirts can be found in various fabrics, such as cotton, linen, or polyester, offering different levels of comfort and breathability. Due to their minimalist design, they can be easily paired with accessories, jackets, or other garments to create a wide range of looks, making them an essential go-to item in any fashion-conscious individual's closet.",
+            "price": "$15.99",
+            "images": [
+                "https://m.media-amazon.com/images/I/415u4FEcXhL._AC_UY1100_.jpg",
+                "https://i.ebayimg.com/images/g/KYYAAOSwrUBgwxUW/s-l1200.jpg",
+                "https://www.gant.ae/images/slim-fit-oxford-shirt-p3481-456850_image.jpg"
+            ],
+            "category": "Men",
+            "colors": [
+                "Black",
+                "White",
+                "Yellow"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 2,
+        "product": {
+            "name": "CS-Stylish",
+            "description": "A check shirt, also known as a plaid shirt, is a versatile and classic piece of clothing commonly worn by both men and women. It features a pattern of intersecting horizontal and vertical lines, creating small squares or checks. The pattern can vary in size, color, and arrangement, offering a wide range of styles to suit various tastes and occasions. Check shirts are popular for their casual and laid-back appearance, making them ideal for relaxed outings or weekend wear. They can be found in various fabrics, including cotton, flannel, and polyester, providing comfort and durability. Whether worn alone or layered over a t-shirt or sweater, the check shirt remains a timeless and fashionable choice in many wardrobes.",
+            "price": "$19.99",
+            "images": [
+                "https://m.media-amazon.com/images/I/71b7OR0APoL._AC_UY1100_.jpg",
+                "https://images-cdn.ubuy.co.in/633aa3183d817d170d16d310-men-s-plaid-flannel-shirts-long.jpg",
+                "https://m.media-amazon.com/images/I/71PskOYQUZL._AC_UY1100_.jpg"
+            ],
+            "category": "Men",
+            "colors": [
+                "Red",
+                "Black",
+                "Blue"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 3,
+        "product": {
+            "name": "Cool-TS",
+            "description": "A t-shirt is a comfortable and casual piece of clothing that is a staple in almost every wardrobe. It is typically made of soft and breathable cotton fabric, though variations in materials like polyester or blends are also common. T-shirts are known for their simple design, featuring short sleeves and a round neckline, making them easy to slip on and off. They come in various colors and can be found with a wide range of prints, designs, and slogans, catering to various personal styles and preferences. T-shirts are popular for their versatility, as they can be dressed up or down depending on the occasion. They are often worn as a standalone garment in warm weather or layered under jackets or sweaters in cooler climates. From casual outings to gym sessions, and even as a canvas for self-expression, the t-shirt is a timeless and beloved item of clothing cherished by people of all ages.",
+            "price": "$10.99",
+            "images": [
+                "https://cdn.billig-arbejdstoj.dk/media/n3cdvrnx/125799-1120_10.jpg?width=350&height=350&bgcolor=ffffff&format=webp&quality=75",
+                "https://img.freepik.com/free-photo/plain-black-tshirt-white-background_125540-2496.jpg",
+                "https://cdn.billig-arbejdstoj.dk/media/4wnn4qzc/2892_10.jpg?width=350&height=350&bgcolor=ffffff&format=webp&quality=75"
+            ],
+            "category": "Men",
+            "colors": [
+                "Orange",
+                "Black",
+                "Blue"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 4,
+        "product": {
+            "name": "Gorgeous-3piece",
+            "description": "These 3-piece outfits offer versatility and convenience, as they take the guesswork out of matching separate clothing items and ensure a put-together appearance. They come in various styles, fabrics, and colors, catering to different occasions and personal tastes. From formal business suits with a jacket, blouse, and skirt or trousers to more casual sets featuring a cardigan, tank top, and jeans or a vest, shirt, and leggings, women's 3-piece outfits offer a plethora of options for creating stylish and effortless ensembles.",
+            "price": "$22.99",
+            "images": [
+                "https://static-01.daraz.com.bd/p/084843821fe4fe623cbd3ce4a1d6b24f.jpg_750x750.jpg_.webp",
+                "https://5.imimg.com/data5/CT/EY/CZ/SELLER-11130027/black-and-red-coloured-unstitched-dress-material-500x500.jpg",
+                "https://assets0.mirraw.com/images/7233033/MONSOON-2765_large.jpg?1564059004"
+            ],
+            "category": "Women",
+            "colors": [
+                "Red",
+                "Black",
+                "Blue"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 5,
+        "product": {
+            "name": "Classic-Sari",
+            "description": "A sari is a traditional and elegant garment worn primarily by women in South Asia, particularly in India, Bangladesh, Nepal, and Sri Lanka. It is a long piece of fabric, usually ranging from 4 to 9 meters in length, draped gracefully around the body to create a stunning and unique outfit. The sari is wrapped around the waist, with one end elegantly draped over the shoulder, while the other end forms pleats tucked into the waist. The choice of fabric, color, and design varies widely, allowing for a wide array of styles suitable for different occasions, from everyday wear to formal events and weddings. The sari holds deep cultural significance and is cherished as a symbol of tradition, grace, and feminine beauty in South Asian cultures.",
+            "price": "$25.99",
+            "images": [
+                "https://assets0.mirraw.com/images/9721788/07-GARID_large.jpg?1637576386",
+                "https://assets0.mirraw.com/images/5045060/image_large.jpeg?1538228756",
+                "https://assets0.mirraw.com/images/5619149/image_large.jpeg?1538419759"
+            ],
+            "category": "Women",
+            "colors": [
+                "Pink",
+                "Golden",
+                "Blue"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 6,
+        "product": {
+            "name": "Cool-Lehenga",
+            "description": "A lehenga is a traditional and exquisite attire worn by women in South Asia, particularly in India and Pakistan, on special occasions and festive events. It consists of three main pieces - a flared, ankle-length skirt called the lehenga, a fitted blouse or choli, and a decorative, flowing scarf known as the dupatta. The lehenga's skirt is richly adorned with intricate embroidery, embellishments, or vibrant prints, making it a stunning and eye-catching outfit. The choli complements the lehenga with its own ornate designs and fits snugly on the upper body, while the dupatta drapes gracefully over the shoulder or across the arms, adding a touch of elegance and completing the ensemble. Lehengas are favored for their grandeur and cultural significance, making them an essential choice for weddings, festivals, and celebratory occasions.",
+            "price": "$24.99",
+            "images": [
+                "https://medias.utsavfashion.com/media/catalog/product/cache/1/image/500x/040ec09b1e35df139433887a97daa66f/e/m/embroidered-art-silk-lehenga-in-magenta-v3-lyc1112.jpg",
+                "https://img3.junaroad.com/uiproducts/18520164/pri_175_p-1663062039.jpg",
+                "https://assets0.mirraw.com/images/7168691/image_large_m.jpeg?1688218787"
+            ],
+            "category": "Women",
+            "colors": [
+                "Red",
+                "Pink",
+                "Blue"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 7,
+        "product": {
+            "name": "Baby DC-1",
+            "description": "A baby dress is a delightful and adorable outfit designed specifically for infants and toddlers. These tiny dresses are crafted with soft, comfortable materials to ensure the baby's comfort and freedom of movement. Baby dresses come in a variety of cute and charming styles, often featuring playful prints, patterns, or colorful designs. They typically have easy-to-use closures, such as buttons or snaps, to simplify dressing and diaper changes. Whether it's a simple and casual dress for everyday wear or an elegant dress for special occasions, baby dresses are sure to make the little ones look absolutely adorable and bring smiles to everyone's faces.",
+            "price": "$17.99",
+            "images": [
+                "https://ae01.alicdn.com/kf/HTB117zQjrSYBuNjSspiq6xNzpXaM.jpg",
+                "https://static-01.daraz.com.bd/p/a80b85d7b525e463108378f00db50619.jpg",
+                "https://m.media-amazon.com/images/I/71gjWxYjf3L._AC_UX522_.jpg"
+            ],
+            "category": "Baby",
+            "colors": [
+                "Red",
+                "Pink",
+                "Dark Brown"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 8,
+        "product": {
+            "name": "Baby DC-2",
+            "description": "A baby dress is a delightful and adorable outfit designed specifically for infants and toddlers. These tiny dresses are crafted with soft, comfortable materials to ensure the baby's comfort and freedom of movement. Baby dresses come in a variety of cute and charming styles, often featuring playful prints, patterns, or colorful designs. They typically have easy-to-use closures, such as buttons or snaps, to simplify dressing and diaper changes. Whether it's a simple and casual dress for everyday wear or an elegant dress for special occasions, baby dresses are sure to make the little ones look absolutely adorable and bring smiles to everyone's faces.",
+            "price": "$11.99",
+            "images": [
+                "https://bornbabies.com/public/products_image/BBE20580130/600/0_BBE20580130_600.jpg",
+                "https://bornbabies.com/public/products_image/BBE20580130_2_S/250/0_BBE20580130_2_S_250.jpg"
+            ],
+            "category": "Baby",
+            "colors": [
+                "White",
+                "Red"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    },
+    {
+        "product_id": 9,
+        "product": {
+            "name": "Baby DC-3",
+            "description": "A baby dress is a delightful and adorable outfit designed specifically for infants and toddlers. These tiny dresses are crafted with soft, comfortable materials to ensure the baby's comfort and freedom of movement. Baby dresses come in a variety of cute and charming styles, often featuring playful prints, patterns, or colorful designs. They typically have easy-to-use closures, such as buttons or snaps, to simplify dressing and diaper changes. Whether it's a simple and casual dress for everyday wear or an elegant dress for special occasions, baby dresses are sure to make the little ones look absolutely adorable and bring smiles to everyone's faces.",
+            "price": "$11.99",
+            "images": [
+                "https://m.media-amazon.com/images/I/61x6H--20BL._AC_SR175,263_QL70_.jpg",
+                "https://m.media-amazon.com/images/I/41LYH1xW4lL._SR240,220_.jpg"
+            ],
+            "category": "Baby",
+            "colors": [
+                "Dark Brown",
+                "Megenta"
+            ],
+            "sizes": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "reviews": [
+            {
+                "username": "User1",
+                "rating": 4,
+                "comment": "Great product! Highly recommended."
+            },
+            {
+                "username": "User2",
+                "rating": 5,
+                "comment": "Excellent quality and fast shipping."
+            },
+            {
+                "username": "User3",
+                "rating": 3,
+                "comment": "Average product. Could be better."
+            }
+        ]
+    }
+]
