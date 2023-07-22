@@ -24,7 +24,7 @@ const Men = () => {
             <div className='w-4/5 mx-auto grid grid-cols-3 gap-14'>
                 {
                     allProductData.map(productData => <Card
-                        key={productData.product_id}
+                        key={productData.productId}
                         productData={productData}
                     ></Card>)
                 }

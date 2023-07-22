@@ -1,6 +1,6 @@
 [
     {
-        "product_id": 1,
+        "productId": 1,
         "product": {
             "name": "PS-Classic",
             "description": "A plain shirt is a simple and straightforward piece of clothing characterized by its lack of patterns or prints. It typically comes in a single, solid color without any additional decorative elements. Plain shirts are known for their versatility and ability to effortlessly complement various outfits and styles. They serve as a staple in most wardrobes, making them suitable for both casual and formal occasions. Plain shirts can be found in various fabrics, such as cotton, linen, or polyester, offering different levels of comfort and breathability. Due to their minimalist design, they can be easily paired with accessories, jackets, or other garments to create a wide range of looks, making them an essential go-to item in any fashion-conscious individual's closet.",
@@ -41,7 +41,7 @@
         ]
     },
     {
-        "product_id": 2,
+        "productId": 2,
         "product": {
             "name": "CS-Stylish",
             "description": "A check shirt, also known as a plaid shirt, is a versatile and classic piece of clothing commonly worn by both men and women. It features a pattern of intersecting horizontal and vertical lines, creating small squares or checks. The pattern can vary in size, color, and arrangement, offering a wide range of styles to suit various tastes and occasions. Check shirts are popular for their casual and laid-back appearance, making them ideal for relaxed outings or weekend wear. They can be found in various fabrics, including cotton, flannel, and polyester, providing comfort and durability. Whether worn alone or layered over a t-shirt or sweater, the check shirt remains a timeless and fashionable choice in many wardrobes.",
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "product_id": 3,
+        "productId": 3,
         "product": {
             "name": "Cool-TS",
             "description": "A t-shirt is a comfortable and casual piece of clothing that is a staple in almost every wardrobe. It is typically made of soft and breathable cotton fabric, though variations in materials like polyester or blends are also common. T-shirts are known for their simple design, featuring short sleeves and a round neckline, making them easy to slip on and off. They come in various colors and can be found with a wide range of prints, designs, and slogans, catering to various personal styles and preferences. T-shirts are popular for their versatility, as they can be dressed up or down depending on the occasion. They are often worn as a standalone garment in warm weather or layered under jackets or sweaters in cooler climates. From casual outings to gym sessions, and even as a canvas for self-expression, the t-shirt is a timeless and beloved item of clothing cherished by people of all ages.",
@@ -123,7 +123,7 @@
         ]
     },
     {
-        "product_id": 4,
+        "productId": 4,
         "product": {
             "name": "Gorgeous-3piece",
             "description": "These 3-piece outfits offer versatility and convenience, as they take the guesswork out of matching separate clothing items and ensure a put-together appearance. They come in various styles, fabrics, and colors, catering to different occasions and personal tastes. From formal business suits with a jacket, blouse, and skirt or trousers to more casual sets featuring a cardigan, tank top, and jeans or a vest, shirt, and leggings, women's 3-piece outfits offer a plethora of options for creating stylish and effortless ensembles.",
@@ -164,7 +164,7 @@
         ]
     },
     {
-        "product_id": 5,
+        "productId": 5,
         "product": {
             "name": "Classic-Sari",
             "description": "A sari is a traditional and elegant garment worn primarily by women in South Asia, particularly in India, Bangladesh, Nepal, and Sri Lanka. It is a long piece of fabric, usually ranging from 4 to 9 meters in length, draped gracefully around the body to create a stunning and unique outfit. The sari is wrapped around the waist, with one end elegantly draped over the shoulder, while the other end forms pleats tucked into the waist. The choice of fabric, color, and design varies widely, allowing for a wide array of styles suitable for different occasions, from everyday wear to formal events and weddings. The sari holds deep cultural significance and is cherished as a symbol of tradition, grace, and feminine beauty in South Asian cultures.",
@@ -205,7 +205,7 @@
         ]
     },
     {
-        "product_id": 6,
+        "productId": 6,
         "product": {
             "name": "Cool-Lehenga",
             "description": "A lehenga is a traditional and exquisite attire worn by women in South Asia, particularly in India and Pakistan, on special occasions and festive events. It consists of three main pieces - a flared, ankle-length skirt called the lehenga, a fitted blouse or choli, and a decorative, flowing scarf known as the dupatta. The lehenga's skirt is richly adorned with intricate embroidery, embellishments, or vibrant prints, making it a stunning and eye-catching outfit. The choli complements the lehenga with its own ornate designs and fits snugly on the upper body, while the dupatta drapes gracefully over the shoulder or across the arms, adding a touch of elegance and completing the ensemble. Lehengas are favored for their grandeur and cultural significance, making them an essential choice for weddings, festivals, and celebratory occasions.",
@@ -246,7 +246,7 @@
         ]
     },
     {
-        "product_id": 7,
+        "productId": 7,
         "product": {
             "name": "Baby DC-1",
             "description": "A baby dress is a delightful and adorable outfit designed specifically for infants and toddlers. These tiny dresses are crafted with soft, comfortable materials to ensure the baby's comfort and freedom of movement. Baby dresses come in a variety of cute and charming styles, often featuring playful prints, patterns, or colorful designs. They typically have easy-to-use closures, such as buttons or snaps, to simplify dressing and diaper changes. Whether it's a simple and casual dress for everyday wear or an elegant dress for special occasions, baby dresses are sure to make the little ones look absolutely adorable and bring smiles to everyone's faces.",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "product_id": 8,
+        "productId": 8,
         "product": {
             "name": "Baby DC-2",
             "description": "A baby dress is a delightful and adorable outfit designed specifically for infants and toddlers. These tiny dresses are crafted with soft, comfortable materials to ensure the baby's comfort and freedom of movement. Baby dresses come in a variety of cute and charming styles, often featuring playful prints, patterns, or colorful designs. They typically have easy-to-use closures, such as buttons or snaps, to simplify dressing and diaper changes. Whether it's a simple and casual dress for everyday wear or an elegant dress for special occasions, baby dresses are sure to make the little ones look absolutely adorable and bring smiles to everyone's faces.",
@@ -326,7 +326,7 @@
         ]
     },
     {
-        "product_id": 9,
+        "productId": 9,
         "product": {
             "name": "Baby DC-3",
             "description": "A baby dress is a delightful and adorable outfit designed specifically for infants and toddlers. These tiny dresses are crafted with soft, comfortable materials to ensure the baby's comfort and freedom of movement. Baby dresses come in a variety of cute and charming styles, often featuring playful prints, patterns, or colorful designs. They typically have easy-to-use closures, such as buttons or snaps, to simplify dressing and diaper changes. Whether it's a simple and casual dress for everyday wear or an elegant dress for special occasions, baby dresses are sure to make the little ones look absolutely adorable and bring smiles to everyone's faces.",

@@ -2,9 +2,11 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Card = ({ productData }) => {
 
+    const { productId } = productData;
     const { name, price, images } = productData.product;
 
     return (
@@ -21,7 +23,9 @@ const Card = ({ productData }) => {
                 <p>Price: <strong className='text-primary'>{price}</strong></p>
                 <div className="card-actions justify-center gap-5 mt-5">
                     <button className="btn btn-primary">Buy Now</button>
-                    <button className="btn btn-outline btn-primary">Details</button>
+                    <Link to={`/details/${productId}`}>
+                        <button className="btn btn-outline btn-primary">Details</button>
+                    </Link>
                 </div>
             </div>
         </div>
