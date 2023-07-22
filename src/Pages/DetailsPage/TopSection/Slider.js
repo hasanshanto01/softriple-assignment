@@ -15,7 +15,7 @@ const Slider = ({ productData }) => {
     }
     ))
 
-    console.log(imagesData);
+    // console.log(imagesData);
 
     return (
         <ImageGallery
