@@ -56,7 +56,9 @@ const Mainbar = () => {
                     <FontAwesomeIcon icon={faHeart} className='w-8 h-8 mr-5' />
                     <FontAwesomeIcon icon={faCartShopping} className='w-8 h-8' />
                 </div>
-                <button className='btn btn-outline btn-primary'>Login</button>
+                <Link to='/login'>
+                    <button className='btn btn-outline btn-primary'>Login</button>
+                </Link>
             </div>
         </div>
     );

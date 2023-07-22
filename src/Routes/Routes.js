@@ -5,6 +5,8 @@ import Men from "../Pages/Home/Men/Men";
 import Women from "../Pages/Home/Women/Women";
 import Baby from "../Pages/Home/Baby/Baby";
 import DetailsPage from '../Pages/DetailsPage/DetailsPage/DetailsPage';
+import Register from '../Pages/Register/Register';
+import Login from '../Pages/Login/Login';
 
 export const router = createBrowserRouter([
     {
@@ -36,4 +38,12 @@ export const router = createBrowserRouter([
             }
         ]
     },
+    {
+        path: "/register",
+        element: <Register></Register>
+    },
+    {
+        path: "/login",
+        element: <Login></Login>
+    }
 ]);
