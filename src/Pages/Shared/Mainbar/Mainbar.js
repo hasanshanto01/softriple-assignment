@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import logo from '../../../Assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../../Context/AuthProvider';
 
 
 const Mainbar = () => {
 
+    const { user, logOut } = useContext(AuthContext);
+    // console.log(user);
     const navigate = useNavigate();
 
     const handleSearch = (event) => {
@@ -38,6 +41,16 @@ const Mainbar = () => {
 
     // console.log(searchText);
 
+    const handleLogOut = () => {
+
+        logOut()
+            .then(() => { })
+            .catch(err => {
+                console.log(err.message);
+            })
+
+    };
+
     return (
         <div className="navbar gap-5 bg-base-100 shadow-lg px-10">
             <div className="navbar-start w-1/5">
@@ -56,9 +69,13 @@ const Mainbar = () => {
                     <FontAwesomeIcon icon={faHeart} className='w-8 h-8 mr-5' />
                     <FontAwesomeIcon icon={faCartShopping} className='w-8 h-8' />
                 </div>
-                <Link to='/login'>
-                    <button className='btn btn-outline btn-primary'>Login</button>
-                </Link>
+                {
+                    user?.uid ? <div className="tooltip tooltip-bottom" data-tip={user?.email}>
+                        <button className='btn btn-outline btn-primary' onClick={handleLogOut}>Log Out</button>
+                    </div> : <Link to='/login'>
+                        <button className='btn btn-outline btn-primary'>Login</button>
+                    </Link>
+                }
             </div>
         </div>
     );
