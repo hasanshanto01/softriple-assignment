@@ -1,3 +1,17 @@
+# Softriple Assignment
+
+## Technologies
+A list of technologies and libraries used within the project:
+* [React](https://create-react-app.dev/)
+* [React Router](https://reactrouter.com/en/main)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [DaisyUI](https://daisyui.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [React Hook Form](https://react-hook-form.com/)
+* [React Hot Toast](https://react-hot-toast.com/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
