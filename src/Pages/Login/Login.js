@@ -8,6 +8,7 @@ const Login = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const { logIn, googleLogIn } = useContext(AuthContext);
     const navigate = useNavigate();
+
     const [loginError, setLoginError] = useState('');
 
     const handleLogin = (data) => {
@@ -36,8 +37,8 @@ const Login = () => {
 
         googleLogIn()
             .then(result => {
-                const user = result.user;
-                console.log('googleLogin:', user);
+                // const user = result.user;
+                // console.log('googleLogin:', user);
 
                 navigate('/');
             })

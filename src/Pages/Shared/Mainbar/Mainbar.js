@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import logo from '../../../Assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
@@ -10,15 +10,13 @@ import { AuthContext } from '../../../Context/AuthProvider';
 const Mainbar = () => {
 
     const { user, logOut } = useContext(AuthContext);
-    // console.log(user);
     const navigate = useNavigate();
 
     const handleSearch = (event) => {
 
-
         if (event.key === 'Enter') {
             event.preventDefault();
-            // console.log(event.target.value);
+
             let searchText = event.target.value;
             // console.log(searchText);
 
@@ -35,11 +33,9 @@ const Mainbar = () => {
                 navigate('/');
             }
 
-        }
+        };
 
-    }
-
-    // console.log(searchText);
+    };
 
     const handleLogOut = () => {
 
@@ -69,13 +65,15 @@ const Mainbar = () => {
                     <FontAwesomeIcon icon={faHeart} className='w-8 h-8 mr-5' />
                     <FontAwesomeIcon icon={faCartShopping} className='w-8 h-8' />
                 </div>
-                {
-                    user?.uid ? <div className="tooltip tooltip-bottom" data-tip={user?.email}>
-                        <button className='btn btn-outline btn-primary' onClick={handleLogOut}>Log Out</button>
-                    </div> : <Link to='/login'>
-                        <button className='btn btn-outline btn-primary'>Login</button>
-                    </Link>
-                }
+                <div>
+                    {
+                        user?.uid ? <div className="tooltip tooltip-bottom" data-tip={user?.email}>
+                            <button className='btn btn-sm btn-primary' onClick={handleLogOut}>Log Out</button>
+                        </div> : <Link to='/login'>
+                            <button className='btn btn-outline btn-primary'>Login</button>
+                        </Link>
+                    }
+                </div>
             </div>
         </div>
     );

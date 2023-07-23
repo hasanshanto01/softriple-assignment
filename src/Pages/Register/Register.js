@@ -9,6 +9,7 @@ const Register = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const { createUser, updateUser, googleLogIn } = useContext(AuthContext);
     const navigate = useNavigate();
+
     const [registerError, setRegisterError] = useState('');
 
     const handleRegister = (data) => {
@@ -23,15 +24,17 @@ const Register = () => {
         if (password === confirmPassword) {
             createUser(email, password)
                 .then(result => {
-                    const user = result.user;
+                    // const user = result.user;
                     // console.log('register:',user);
+
                     const userInfo = {
                         displayName: name
                     };
 
                     updateUser(userInfo)
                         .then(() => {
-                            console.log('register:', user);
+                            // console.log('register:', user);
+
                             toast.success('User created successfully.');
                             navigate('/');
                         })
@@ -45,6 +48,7 @@ const Register = () => {
                     setRegisterError(err.message);
                 })
         };
+
     };
 
     const handleGoogleLogin = () => {
@@ -52,8 +56,8 @@ const Register = () => {
 
         googleLogIn()
             .then(result => {
-                const user = result.user;
-                console.log('googleLogin:', user);
+                // const user = result.user;
+                // console.log('googleLogin:', user);
 
                 navigate('/');
             })
