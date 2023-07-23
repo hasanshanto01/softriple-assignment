@@ -13,13 +13,12 @@ const DetailsPage = () => {
 
     if (pathArray.length) {
         id = parseInt(pathArray[pathArray.length - 1])
-    }
-    // console.log(id);
+    };
 
     const detailsProduct = productsData.filter(productData => productData.productId === id);
     // console.log(detailsProduct);
 
-    const [productData] = detailsProduct
+    const [productData] = detailsProduct;
 
     return (
         <div className='w-4/5 mx-auto my-20'>

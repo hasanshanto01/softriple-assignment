@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Categorybar = () => {
 
     return (
-        <div className='w-2/4 mx-auto mt-6 py-5 flex justify-between items-center'>
+        <div className='w-2/4 mx-auto mt-6 py-5 flex flex-col md:flex-row justify-between items-center'>
             <NavLink to='/'
                 className='w-32 py-2 rounded-md text-center text-lg font-semibold hover:bg-primary hover:text-white'
                 style={({ isActive }) => {

@@ -48,19 +48,19 @@ const Mainbar = () => {
     };
 
     return (
-        <div className="navbar gap-5 bg-base-100 shadow-lg px-10">
-            <div className="navbar-start w-1/5">
+        <div className="navbar flex-col lg:flex-row gap-5 bg-base-100 shadow-lg px-10">
+            <div className="navbar-start w-full lg:w-1/5">
                 <Link to='/'>
                     <img src={logo} alt="" className='w-24 p-1 border border-primary rounded-full' />
                 </Link>
             </div>
-            <form className="navbar-center w-3/5">
+            <form className="navbar-center w-full lg:w-3/5 my-2 lg:my-0">
                 <input type="text" placeholder="Search by category"
                     className="w-3/4 mx-auto p-3 border-2 border-primary rounded-lg"
                     onKeyDown={handleSearch}
                 />
             </form>
-            <div className="navbar-end justify-between items-center w-1/5">
+            <div className="navbar-end justify-around lg:justify-between items-center w-full lg:w-1/5 mb-3 lg:mb-0">
                 <div>
                     <FontAwesomeIcon icon={faHeart} className='w-8 h-8 mr-5' />
                     <FontAwesomeIcon icon={faCartShopping} className='w-8 h-8' />
